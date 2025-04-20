@@ -1,0 +1,31 @@
+name: MetaMiner
+version: 1.0
+main: me.tien.metaminer.MetaMiner
+api-version: 1.18
+
+# plugin.yml
+commands:
+  claim:
+    description: Claim points for mined blocks
+    usage: /claim
+  upgrade:
+    description: Open the upgrade menu
+    usage: /upgrade
+  minearea:
+    description: Teleport to mining world
+    usage: /minearea
+  lobby:
+    description: Return to lobby
+    usage: /lobby
+  resetmine:
+    description: Reset your mining area
+    usage: /resetmine
+  miner:
+    description: Teleport to the mining lobby
+    usage: /miner
+permissions:
+  metaminer.admin:
+    default: op
+  metaminer.resetmine:
+    description: Cho phép người chơi reset khu vực đào của họ
+    default: true

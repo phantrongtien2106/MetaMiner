@@ -1,0 +1,21 @@
+ores:
+  STONE: 90
+  COAL_ORE: 4
+  IRON_ORE: 3
+  DIAMOND_ORE: 1
+  GOLD_ORE: 2
+
+points:
+  COBBLESTONE: 1
+  COAL: 2
+  RAW_IRON: 3
+  DIAMOND: 10
+  RAW_GOLD: 4
+
+nft_drops:
+  ancient_scroll:
+    chance: 5
+  diamond_sword:
+    chance: 3
+  great_light:
+    chance: 2
